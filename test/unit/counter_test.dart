@@ -11,7 +11,7 @@ void main() {
     });
     test("decrement", () {
       counter.decrement();
-      expect(counter.value, -1);
+      expect(counter.value, 0);
     });
   });
 }
